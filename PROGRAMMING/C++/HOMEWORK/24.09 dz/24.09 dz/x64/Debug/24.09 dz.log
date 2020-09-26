@@ -1,0 +1,3 @@
+﻿  Source.cpp
+F:\itstep\ITSTEP\PROGRAMMING\C++\HOMEWORK\24.09 dz\24.09 dz\Source.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  24.09 dz.vcxproj -> F:\itstep\ITSTEP\PROGRAMMING\C++\HOMEWORK\24.09 dz\x64\Debug\24.09 dz.exe
