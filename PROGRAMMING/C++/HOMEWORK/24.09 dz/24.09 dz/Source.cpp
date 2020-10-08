@@ -73,9 +73,10 @@ void deleteArrInputElement(int*& arr, int& size, int element) {
 void addArr1Element(int*& arr, int& size, int element) {
 	int* arr2 = new int[size + 1];
 	arr2[0] = element;
-	for (int i = 0; i < size; i++)
+	cout << arr2[0];
+	for (int i = 1; i < size+1; i++)
 	{
-		arr2[i+1]=arr[i];
+		arr2[i]=arr[i-1];
 	}
 	delete[]arr;
 	arr = arr2;
